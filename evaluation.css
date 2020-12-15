@@ -1,0 +1,64 @@
+header {
+    
+        height : 100px; width : 1300px;
+        display : flex;
+        flex-direction : row;
+        justify-content: flex-end;
+        font-family: Arial,sans-serif;
+        font-size : 13px;
+
+    }
+
+
+
+footer {
+   
+        width: 1300px; height: 80px;
+        list-style: none;
+        display : flex;
+        flex-direction: row;
+        align-items: flex-end;
+        font-family: Arial,sans-serif;
+        font-size : 12px;
+        
+    }
+
+    
+main {
+   
+    width: 1300px; height: 420px;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    font-family: Arial,sans-serif;
+    color : grey;
+    
+}
+
+#CoteGauche {
+    display : flex;
+    justify-content: flex-start;
+}
+
+#CoteDroit {
+    width : 800px;
+    display : flex;
+    justify-content: flex-end;
+}
+
+#Connexion { background-color :rgb(60, 139, 241);
+            color : white;
+            border-radius: 3px;
+}
+
+.SousGoogle {
+            margin : 20px;
+}
+
+#BarreRecherche {
+    width: 500px;
+    height : 30px;
+}
+
+a { text-decoration: none;
+    color : black;}
